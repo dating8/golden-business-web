@@ -1,0 +1,166 @@
+.el-dropdown-menu__item {
+  font-size: 12px !important;
+  line-height: 28px !important;
+}
+
+.el-card.is-always-shadow {
+  box-shadow: none;
+  border: none !important;
+}
+
+.el-scrollbar__view {
+  height: 100%;
+}
+
+.el-collapse-item__header {
+  display: block !important;
+}
+
+.el-menu--horizontal {
+  border-bottom: none !important;
+}
+
+.el-menu {
+  border-right: none !important;
+}
+
+.el-menu--display,
+.el-menu--display + .el-submenu__icon-arrow {
+  display: none;
+}
+
+.el-dropdown-menu__item--divided:before,
+.el-menu,
+.el-menu--horizontal > .el-menu-item:not(.is-disabled):focus,
+.el-menu--horizontal > .el-menu-item:not(.is-disabled):hover,
+.el-menu--horizontal > .el-submenu .el-submenu__title:hover {
+  background-color: transparent;
+}
+
+.el-message__icon,
+.el-message__content {
+  display: inline-block;
+}
+
+.el-date-editor .el-range-input,
+.el-date-editor .el-range-separator {
+  height: auto;
+  overflow: hidden;
+}
+
+.el-dialog__wrapper {
+  z-index: 2048;
+}
+
+
+.el-col {
+  margin-bottom: 8px;
+}
+
+.el-main {
+  padding: 0 !important;
+}
+
+.el-dropdown-menu__item--divided:before, .el-menu, .el-menu--horizontal > .el-menu-item:not(.is-disabled):focus, .el-menu--horizontal > .el-menu-item:not(.is-disabled):hover, .el-menu--horizontal > .el-submenu .el-submenu__title:hover {
+  background-color: transparent !important;
+}
+//重置element 的蓝色按钮颜色
+.business-basic-container {
+	height: 100%;
+	background: #fff;
+}
+// .el-button:focus, .el-button:hover{
+//     color: $mainColor;
+//   	background-color: transparent;
+//     border-radius: 4px;
+//   }
+  .el-button--default.is-plain,.el-button.is-plain:focus, .el-button.is-plain:hover{
+    border-color: $mainColor;
+    color: $mainColor;
+  }
+  .el-button--primary,.el-button--primary:hover,.el-button--primary:focus{
+    // background-color: $mainColor;
+    // border-color: $mainColor;
+    color: #fff;
+    border-radius: 4px;
+  }
+  .el-form-item__label{
+    color: #000;
+  }
+  .el-input__inner{
+    border-radius: 4px;
+  }
+  // .el-button--text,.el-radio__input.is-checked+.el-radio__label,.el-dialog__headerbtn:focus .el-dialog__close,
+  // .el-dialog__headerbtn:hover .el-dialog__close,.el-select-dropdown__item.selected,.el-checkbox__input.is-checked+.el-checkbox__label,
+  // .el-select-dropdown.is-multiple .el-select-dropdown__item.selected{
+  //   color: $mainColor;
+  // }
+  // .el-select .el-input.is-focus .el-input__inner,.el-textarea__inner:focus,.el-radio__inner:hover,
+  // .el-input.is-active .el-input__inner, .el-input__inner:focus,.el-pagination__sizes .el-input .el-input__inner:hover,
+  // .el-select .el-input__inner:focus{
+  //   border-color: $mainColor;
+  // }
+  // .el-checkbox__input.is-checked .el-checkbox__inner, .el-checkbox__input.is-indeterminate .el-checkbox__inner,.el-radio__input.is-checked .el-radio__inner{
+  //   background: $mainColor;
+  //   border-color: $mainColor;
+  // }
+  .icon-s{
+	  font-size: 14px !important;
+	  margin-right: 8px;
+    color: $mainColor;
+  }
+  .icon-os{
+    opacity: 0.5
+  }
+  // .el-pagination.is-background .el-pager li:not(.disabled).active{
+	 //  background-color: $mainColor;
+  // }
+.el-dialog__header{
+  padding: 15px 20px 15px;
+  text-align: center;
+  background: #E1BF7F;
+  .el-dialog__title{
+    color: #fff;
+  }
+  .el-dialog__headerbtn .el-dialog__close{
+    color: #fff;
+  }
+}
+.imgdialog .el-dialog__header{
+  background: transparent;
+  .el-dialog__title{
+    color: #262626;
+  }
+  .el-dialog__headerbtn .el-dialog__close{
+    color: #262626;
+  }
+}
+.el-dialog--center .el-dialog__body{
+  padding: 25px 25px 0;
+
+}
+.el-col{
+  margin-bottom: 0;
+}
+.el-form-item{
+  margin-bottom: 20px;
+}
+.tempRadio{
+  margin-bottom: 10px;
+}
+.tempRadio .el-form-item__label,.tempRadio .el-form-item__content{
+    line-height: 30px;
+  }
+// .el-loading-spinner .path{
+// 	stroke: $mainColor;
+// }
+.el-scrollbar__wrap{
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.el-select-dropdown .el-scrollbar__wrap{
+  overflow: scroll;
+}
+// .el-table td, .el-table th{
+// 	padding: 0;
+// }

@@ -1,0 +1,145 @@
+// 全局变量
+@import './variables.scss';
+// ele样式覆盖
+@import './element-ui.scss';
+// 顶部右侧显示
+@import './top.scss';
+// 导航标签
+@import './tags.scss';
+// 工具类函数
+@import './mixin.scss';
+// 侧面导航栏
+@import './sidebar.scss';
+// 动画
+@import './animate/vue-transition.scss';
+//适配
+@import './media.scss';
+//通用配置
+@import './normalize.scss';
+
+a{
+  text-decoration: none;
+  color:#333;
+}
+*{
+  padding: 0;
+  margin: 0;
+  outline: none;
+}
+
+.flex{
+	display: flex;
+}
+.flex-ver{
+	align-items: center;
+}
+.flex-wrap{
+	flex-wrap: wrap;
+}
+.flex-col{
+	flex-direction: column
+}
+.flex-center{
+	justify-content: center;
+	align-items: center;
+}
+.flex-sb{
+  justify-content:space-around
+}
+.flex-1{
+	flex: 1;
+}
+.golden{
+	color: $mainColor
+}
+.avatar-uploader .el-upload {
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+}
+.avatar-uploader-icon {
+	font-size: 28px;
+	color: #8c939d;
+	width: 148px;
+	height: 148px;
+	line-height: 128px;
+	text-align: center;
+	border:1px solid #ccc;
+}
+.avatar {
+	width: 148px;
+	height: 148px;
+	display: block;
+}
+.el-upload__tip{
+	margin-left: 20px;
+}
+.icon1 {
+  width: 20px;
+  height: 20px;
+  // vertical-align: -0.15px;
+  fill: currentColor;
+  overflow: hidden;
+}
+.product-table{
+  background: #fff;
+}
+.shangpin-uploader{
+    .el-upload--picture-card{
+      line-height: 17px;
+      border: none !important;
+      background: #F5F5F5 !important;
+      border-radius: 0;
+    }
+    i{
+      color: $mainColor
+    }
+    .el-upload__tip{
+      margin: 7px 10px 0;
+      color: #262626;
+      .gray{
+        color: #818181;
+      }
+    }
+  }
+  //nav样式
+.product-table-nav{
+    margin-left: 10px;
+    border-bottom: 20px solid #fff;
+    background: #f5f5f5;
+    span{
+      cursor: pointer;
+      width: 160px;
+      height: 50px;
+      line-height: 50px;
+      font-size: 15px;
+      color: #818181;
+      text-align: center;
+      display: inline-block;
+      border-top: 2px solid transparent;
+      box-sizing: border-box;
+      &.active{
+        border-top: 2px solid $mainColor;
+        color: #262626;
+        background: #fff;
+
+      }
+    }
+  }
+.templ{
+  .el-image{
+    .el-image__inner{
+      opacity: 0 !important;
+    }
+  }
+}
+.el-carousel__button{
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 100%;
+  background: #999;
+  opacity: 1;
+}
+.whiteBg, .el-carousel__indicator.is-active button{
+  background: #fff;
+}
