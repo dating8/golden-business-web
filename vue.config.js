@@ -59,7 +59,7 @@ module.exports = {
         }
       },
 	  '/api':{
-	    target:'http://192.168.6.55:8082/',
+	    target:'http://xxx.xxx.x.xx:8082/',
 	    changeOrigin:true,//允许跨域
 	    pathRewrite:{
 	      '^/api': ''
